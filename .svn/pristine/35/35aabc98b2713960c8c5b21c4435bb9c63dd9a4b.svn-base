@@ -1,0 +1,136 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Webpas.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Webpas booking",
+  "description": "",
+  "id": "webpas-booking",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 5,
+  "name": "Webpas appointment",
+  "description": "",
+  "id": "webpas-booking;webpas-appointment",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 6,
+  "name": "I open \"https://racinsurance.rac.com.au/QuoteMotor/Question/Questions/bc1b1efe-c1a5-46f8-af43-d757670033fa\" website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Select \"Up to 10,000\" from \"Kms\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 12,
+  "name": "",
+  "description": "",
+  "id": "webpas-booking;webpas-appointment;",
+  "rows": [
+    {
+      "cells": [
+        "Username",
+        "Password",
+        "Surname",
+        "Givenname",
+        "Title",
+        "Gender",
+        "DOB",
+        "Marital",
+        "Country",
+        "Indegenious",
+        "Resident",
+        "Interpreter",
+        "Address",
+        "Suburb",
+        "Postcode",
+        "Sno"
+      ],
+      "line": 13,
+      "id": "webpas-booking;webpas-appointment;;1"
+    },
+    {
+      "cells": [
+        "he119941",
+        "Cognizant1$",
+        "Patient9",
+        "Patient9",
+        "Mr",
+        "Male",
+        "20101982",
+        "Married",
+        "1 Western Australia",
+        "Other",
+        "Resident",
+        "No",
+        "67 Walters drive",
+        "Osborne Park",
+        "6017",
+        "1"
+      ],
+      "line": 14,
+      "id": "webpas-booking;webpas-appointment;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 1563407024,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Webpas appointment",
+  "description": "",
+  "id": "webpas-booking;webpas-appointment;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 6,
+  "name": "I open \"https://racinsurance.rac.com.au/QuoteMotor/Question/Questions/bc1b1efe-c1a5-46f8-af43-d757670033fa\" website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Select \"Up to 10,000\" from \"Kms\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://racinsurance.rac.com.au/QuoteMotor/Question/Questions/bc1b1efe-c1a5-46f8-af43-d757670033fa",
+      "offset": 8
+    }
+  ],
+  "location": "KeywordDrivenFramework.i_open_website(String)"
+});
+formatter.result({
+  "duration": 138365296,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Up to 10,000",
+      "offset": 8
+    },
+    {
+      "val": "Kms",
+      "offset": 28
+    }
+  ],
+  "location": "KeywordDrivenFramework.select_from(String,String)"
+});
+formatter.result({
+  "duration": 40221505803,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1016364469,
+  "status": "passed"
+});
+});

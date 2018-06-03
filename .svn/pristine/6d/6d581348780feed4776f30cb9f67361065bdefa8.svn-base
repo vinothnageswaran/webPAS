@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^Select \"(.*?)\" from \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "Select \"Up to 10,000\" from \"Kms\"",
+        "aggregatedDurations": {
+          "average": 40.221505803,
+          "median": 40.221505803
+        },
+        "durations": [
+          {
+            "duration": 40.221505803,
+            "location": "src/test/resources/features/Webpas.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I open \"(.*?)\" website$",
+    "steps": [
+      {
+        "name": "I open \"https://racinsurance.rac.com.au/QuoteMotor/Question/Questions/bc1b1efe-c1a5-46f8-af43-d757670033fa\" website",
+        "aggregatedDurations": {
+          "average": 0.138365296,
+          "median": 0.138365296
+        },
+        "durations": [
+          {
+            "duration": 0.138365296,
+            "location": "src/test/resources/features/Webpas.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

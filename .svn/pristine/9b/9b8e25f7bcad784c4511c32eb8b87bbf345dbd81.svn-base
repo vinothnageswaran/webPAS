@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^Select \"(.*?)\" from \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "Select \"48\"\" from \"Kms\"",
+        "aggregatedDurations": {
+          "average": 0.768545561,
+          "median": 0.768545561
+        },
+        "durations": [
+          {
+            "duration": 0.768545561,
+            "location": "src/test/resources/features/Webpas.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I open \"(.*?)\" website$",
+    "steps": [
+      {
+        "name": "I open \"https://www.bigw.com.au/womens-clothing-accessories/c/69/?departmentPage\u003ddefault\" website",
+        "aggregatedDurations": {
+          "average": 0.141209413,
+          "median": 0.141209413
+        },
+        "durations": [
+          {
+            "duration": 0.141209413,
+            "location": "src/test/resources/features/Webpas.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

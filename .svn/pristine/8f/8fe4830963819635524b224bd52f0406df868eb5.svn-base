@@ -1,0 +1,11 @@
+Feature: Webpas booking
+
+  Scenario Outline: Webpas appointment                                                                                        [90m# src/test/resources/features/Webpas.feature:5[0m
+    [36mGiven [0m[36mI open "https://racinsurance.rac.com.au/QuoteMotor/Question/Questions/bc1b1efe-c1a5-46f8-af43-d757670033fa" website[0m
+    [36mThen [0m[36mSelect "Up to 10,000" from "Kms"[0m
+
+    Examples: 
+
+  Scenario Outline: Webpas appointment                                                                                        [90m# src/test/resources/features/Webpas.feature:14[0m
+    [32mGiven [0m[32mI open "[0m[32m[1mhttps://racinsurance.rac.com.au/QuoteMotor/Question/Questions/bc1b1efe-c1a5-46f8-af43-d757670033fa[0m[32m" website[0m [90m# KeywordDrivenFramework.i_open_website(String)[0m
+    [32mThen [0m[32mSelect "[0m[32m[1mUp to 10,000[0m[32m" from "[0m[32m[1mKms[0m[32m"[0m                                                                                     [90m# KeywordDrivenFramework.select_from(String,String)[0m

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: step_definitions.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.271 sec <<< FAILURE! - in step_definitions.RunCukesTest
+step_definitions.RunCukesTest  Time elapsed: 0 sec  <<< ERROR!
+java.io.IOException: Input is invalid JSON; does not start with '{' or '[', c=-1
+	at com.cedarsoftware.util.io.JsonReader.readJsonObject(JsonReader.java:1494)
+	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:707)
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsCommon.readFileContent(CucumberResultsCommon.java:61)
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.executeOverviewReport(CucumberResultsOverview.java:151)
+	at com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview.executeFeaturesOverviewReport(CucumberResultsOverview.java:172)
+	at step_definitions.RunCukesTest.generateReport(RunCukesTest.java:78)
+

@@ -1,0 +1,266 @@
+package modules;
+import static org.testng.AssertJUnit.assertTrue;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+//import org.sikuli.basics.ImageLocator;
+//import org.sikuli.script.Screen;
+
+
+
+
+
+
+import java.io.IOException;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.junit.Assert;
+
+
+
+import org.junit.Before;
+
+import cucumber.api.Scenario;
+//import cucumber.api.java.Before;
+public class Click {
+	
+	
+	
+
+    public static void Execute(WebDriver driver,Properties OR,String orderref) throws Exception{
+    
+    	try{ 
+    	
+    	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.findElement(By.xpath(OR.getProperty("Loginwebpas"))).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        
+        
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(OR.getProperty("Loginwebpas"))));
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        
+       // String actualString = driver.findElement(By.xpath(OR.getProperty("Loginwebpas"))).getText();
+       // assertTrue(actualString.contains("Vinoth Nageswaran"));
+        
+    	}
+    	
+    	catch (Exception e)
+    	
+    	{
+    		
+    		System.out.println(e);
+    	}
+    }
+    
+    public static void Clickbtn(WebDriver driver,Properties OR,String orderref) throws Exception{
+    	
+    	try{
+        
+    		wait(driver,40);
+    	    waituntil(driver,OR,orderref);
+    //driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+       driver.findElement(By.xpath(OR.getProperty(orderref))).click();
+       
+    	}
+    	
+    	catch (Exception e)
+    	
+    	{
+    		System.out.println (e);
+    		
+    	}
+    }
+    
+    
+    public static void Clickbtnid(WebDriver driver,Properties OR,String orderref) throws Exception{
+    	
+    	// ImageLocator.setBundlePath("C:/temp/Images");
+    	
+    	//Screen s = new Screen();
+    	
+    	
+    	try
+    	
+    	{
+        
+    		wait(driver,40);
+    	    waituntil(driver,OR,orderref);
+      	
+      	 //String title = driver.getTitle();
+        // System.out.println("title in clickbtnid"+title);
+       
+       //System.out.println(orderref);
+         
+        boolean b= driver.getPageSource().contains("OutpatientClerk");
+        // System.out.println("Text available" + b);
+         
+         boolean b1= driver.getPageSource().contains("iframe");
+         
+         //System.out.println("iframe used" + b1);
+        
+      //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(OR.getProperty(orderref))));
+       //driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+       
+    // s.click("Outpatientclerk.png");
+    
+        driver.findElement(By.xpath(OR.getProperty(orderref))).click();
+          
+        
+    	}
+    	
+    	catch (Exception e)
+    	
+    	{
+    		
+    		System.out.println(e);
+    	}
+          
+       }
+       
+    
+    public static void Visible(WebDriver driver,Properties OR,String orderref) throws Exception{
+        
+    	wait(driver,40);
+	    waituntil(driver,OR,orderref);
+       //driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+      
+       
+       driver.findElement(By.xpath(OR.getProperty(orderref))).isDisplayed();
+       }
+    
+    public static void Entertext(WebDriver driver, Properties OR, String arg1,String arg2)
+			
+			{
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		
+		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(OR.getProperty(arg1))));
+		  driver.findElement(By.xpath(OR.getProperty(arg1))).sendKeys(arg2);
+		
+		
+			}
+    
+
+    
+    //public static String UMRN;
+    
+    public static void gettext(WebDriver driver, Properties OR, String arg1,int Rownum, String Surname) throws Exception
+    
+    {
+    	
+    	wait(driver,40);
+	    waituntil(driver,OR,arg1);
+		  WebElement element= driver.findElement(By.xpath(OR.getProperty(arg1)));
+		  
+		 String  UMRN=element.getText();
+		 
+		System.out.println("UMRN is "+ UMRN);
+		Excelwrite.write(Surname, UMRN, Rownum);
+		
+		System.out.println("Surname"+Surname);
+		System.out.println("UMRN"+UMRN);
+		
+		System.out.println("RowNum"+Rownum);
+		
+		
+		//System.out.println(Surname,UMRN,Rownum);
+		  
+		// scenario.write("This goes into the report(s)\n");
+		  
+		  
+    	
+    	
+    }
+    
+    
+public static void Selectfromthelist(WebDriver driver,Properties OR,String arg1,String arg2) throws Exception{
+    	
+    	try{
+    		
+    		
+        
+    		wait(driver,40);
+    	    waituntil(driver,OR,arg1);
+    
+   
+    Select dropdown = new Select(driver.findElement(By.xpath(OR.getProperty(arg2))));
+    
+    dropdown.selectByValue(arg1);
+       
+    	}
+    	
+    	catch (Exception e)
+    	
+    	{
+    		System.out.println (e);
+    		
+    	}
+    }
+    
+    
+public static void wait(WebDriver driver,int x) throws Exception{
+	
+	try{
+		
+    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+	WebDriverWait wait = new WebDriverWait(driver,x);
+	}
+	
+	catch (Exception e)
+	
+	{
+		System.out.println (e);
+		
+	}
+}
+
+public static void waituntil(WebDriver driver,Properties OR,String element) throws Exception{
+	
+	try{
+		
+    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+    WebDriverWait wait = new WebDriverWait(driver,40);
+    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(OR.getProperty(element))));
+
+
+   
+	}
+	
+	catch (Exception e)
+	
+	{
+		System.out.println (e);
+		
+	}
+}
+
+
+    
+/*
+	public static void Entertext(WebDriver driver, Properties OR, String arg1,
+			String arg2 , String arg3, String arg4) {
+		
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		
+		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(OR.getProperty(arg1))));
+		  driver.findElement(By.xpath(OR.getProperty(arg1))).sendKeys(arg2);
+		  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(OR.getProperty(arg3))));
+		  
+		  System.out.println("arg3"+ arg3);
+		  driver.findElement(By.xpath(OR.getProperty(arg3))).sendKeys(arg4);
+		
+	} 
+	*/
+	
+	
+    
+    
+}
+
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.470204">
+<testcase classname="Webpas booking" name="Webpas appointment" time="4.470204">
+<system-out><![CDATA[Given I open "https://www.bigw.com.au/womens-clothing-accessories/c/69/?departmentPage=default" website.passed
+Then Select "48"" from "Kms"................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

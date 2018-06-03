@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0.003" tests="31" errors="1" skipped="30" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Vinoth\eclipse-workspace\Cucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Vinoth\eclipse-workspace\Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vinoth\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Vinoth\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3655179064663599764.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Users\Vinoth\Temp\Sikuli\Sikuli jar 64 bit\libs;C:\Users\Vinoth\Temp\Sikuli\Sikuli jar 64 bit;C:\Program Files\Java\jdk-9.0.1\bin;C:\Users\Vinoth\Temp\apache-maven-3.5.2\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Vinoth\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Vinoth\AppData\Local\Android\Sdk\tools;C:\Users\Vinoth\AppData\Local\Android\Sdk\platform-tools;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Vinoth"/>
+    <property name="user.timezone" value="Australia/Perth"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="Vinoth"/>
+    <property name="java.class.path" value="C:\Users\Vinoth\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Vinoth\eclipse-workspace\Cucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0.003">
+    <error message="The driver executable does not exist: C:\temp\Chromedriver\IEDriverServer2.exe" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\temp\Chromedriver\IEDriverServer2.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:469)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:117)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:112)
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$100(InternetExplorerDriverService.java:38)
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.build(InternetExplorerDriverService.java:247)
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:251)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:172)
+	at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:146)
+	at step_definitions.Hooks.openBrowser(Hooks.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at cucumber.runtime.Utils$1.call(Utils.java:34)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:30)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:200)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner.run(ExtendedExecutionUnitRunner.java:35)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.runChild(ExtendedExamplesRunner.java:103)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.runChild(ExtendedExamplesRunner.java:19)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.run(ExtendedExamplesRunner.java:87)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.runChild(ExtendedScenarioOutlineRunner.java:69)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.runChild(ExtendedScenarioOutlineRunner.java:17)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.run(ExtendedScenarioOutlineRunner.java:64)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.runChild(ExtendedFeatureRunner.java:76)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.runChild(ExtendedFeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.runChild(ExtendedCucumber.java:71)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.runChild(ExtendedCucumber.java:25)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.run(ExtendedCucumber.java:97)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[Running Feature child (scenario)...
+Begin scenario run...
+Called openBrowser
+]]></system-out>
+  </testcase>
+  <testcase name="Given I open &quot;https://webpas-uat.hdwa.health.wa.gov.au/uat/Login.html&quot; website" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I login using credentials &quot;he119941&quot; and &quot;Cognizant1$&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click &quot;Loginwebpas&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Switchtowindow" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Clickid &quot;Outpatientclerk&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Switchtoframe" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click &quot;Star&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Switchtoframe1" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Surname&quot; as &quot;Patient9&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Givenname&quot; as &quot;Patient9&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click &quot;Search&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click &quot;Newregistration&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Title&quot; as &quot;Mr&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Gender&quot; as &quot;Male&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;DOB&quot; as &quot;20101982&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Marital&quot; as &quot;Married&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Country&quot; as &quot;1 Western Australia&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Indegenious&quot; as &quot;Other&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Resident&quot; as &quot;Resident&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Interpreter&quot; as &quot;No&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Address&quot; as &quot;67 Walters drive&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Suburb&quot; as &quot;Osborne Park&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Postcode&quot; as &quot;6017&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Medicare&quot; as &quot;2924200471&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Sno&quot; as &quot;1&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Validto&quot; as &quot;122021&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Enter &quot;Mobile&quot; as &quot;0400000000&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click &quot;Register&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Acceptalert" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Get &quot;UMRN&quot; and &quot;1&quot;" classname="| he119941 | Cognizant1$ | Patient9 | Patient9 | Mr | Male | 20101982 | Married | 1 Western Australia | Other | Resident | No | 67 Walters drive | Osborne Park | 6017 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

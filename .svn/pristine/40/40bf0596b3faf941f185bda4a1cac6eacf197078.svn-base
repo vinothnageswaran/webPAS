@@ -1,0 +1,136 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Webpas.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Webpas booking",
+  "description": "",
+  "id": "webpas-booking",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 5,
+  "name": "Webpas appointment",
+  "description": "",
+  "id": "webpas-booking;webpas-appointment",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 6,
+  "name": "I open \"https://www.bigw.com.au/womens-clothing-accessories/c/69/?departmentPage\u003ddefault\" website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Select \"48\"\" from \"Kms\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 12,
+  "name": "",
+  "description": "",
+  "id": "webpas-booking;webpas-appointment;",
+  "rows": [
+    {
+      "cells": [
+        "Username",
+        "Password",
+        "Surname",
+        "Givenname",
+        "Title",
+        "Gender",
+        "DOB",
+        "Marital",
+        "Country",
+        "Indegenious",
+        "Resident",
+        "Interpreter",
+        "Address",
+        "Suburb",
+        "Postcode",
+        "Sno"
+      ],
+      "line": 13,
+      "id": "webpas-booking;webpas-appointment;;1"
+    },
+    {
+      "cells": [
+        "he119941",
+        "Cognizant1$",
+        "Patient9",
+        "Patient9",
+        "Mr",
+        "Male",
+        "20101982",
+        "Married",
+        "1 Western Australia",
+        "Other",
+        "Resident",
+        "No",
+        "67 Walters drive",
+        "Osborne Park",
+        "6017",
+        "1"
+      ],
+      "line": 14,
+      "id": "webpas-booking;webpas-appointment;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 2543717369,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Webpas appointment",
+  "description": "",
+  "id": "webpas-booking;webpas-appointment;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 6,
+  "name": "I open \"https://www.bigw.com.au/womens-clothing-accessories/c/69/?departmentPage\u003ddefault\" website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Select \"48\"\" from \"Kms\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.bigw.com.au/womens-clothing-accessories/c/69/?departmentPage\u003ddefault",
+      "offset": 8
+    }
+  ],
+  "location": "KeywordDrivenFramework.i_open_website(String)"
+});
+formatter.result({
+  "duration": 141209413,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "48\"",
+      "offset": 8
+    },
+    {
+      "val": "Kms",
+      "offset": 19
+    }
+  ],
+  "location": "KeywordDrivenFramework.select_from(String,String)"
+});
+formatter.result({
+  "duration": 768545561,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1016731928,
+  "status": "passed"
+});
+});
