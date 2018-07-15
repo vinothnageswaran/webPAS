@@ -26,7 +26,8 @@ public class Hooks{
     	System.out.println("Called openBrowser");
     	//System.setProperty("webdriver.chrome.driver","C://temp//Chromedriver//Chromedriver2.exe");
     	//driver = new ChromeDriver();C:\Users\Vinoth\Temp\IEdriver
-    	System.setProperty("webdriver.ie.driver","C://Users//Vinoth//temp//IEdriver//IEDriverServer.exe");
+    	//System.setProperty("webdriver.ie.driver","C://Users//Vinoth//temp//IEdriver//IEDriverServer.exe");
+    	System.setProperty("webdriver.ie.driver","C://Users//Vinoth//temp//Chromedriver/2.44//chromedriver.exe");
     	driver = new InternetExplorerDriver();
     	
     

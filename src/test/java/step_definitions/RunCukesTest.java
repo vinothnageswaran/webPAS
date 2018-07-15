@@ -30,7 +30,7 @@ import cucumber.runtime.CucumberException;
 @CucumberOptions(
 		//features = "classpath:features",
 		
-			features = "src/test/resources/features/Webpas.feature",
+			features = "src/test/resources/features/Rac.feature",
 		//plugin = {"pretty", "html:target/cucumber-html-report","json:cucumber.json"},
 		
 				plugin = { "html:target/cucumber-html-report",
@@ -65,6 +65,8 @@ public class RunCukesTest{
 	public static void generateReport() throws Throwable
 	{
 		
+		/*
+		
 		System.out.println(" inside after class");
 		
 	
@@ -76,6 +78,8 @@ public class RunCukesTest{
 	results.setOutputName(".//target//cucumber-results");
 	results.setSourceFile(".//target//cucumber.json");
 	results.executeFeaturesOverviewReport();
+	
+	*/
 	}	
 	
 }

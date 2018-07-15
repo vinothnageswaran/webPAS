@@ -2,12 +2,6 @@ package step_definitions;
 import java.io.IOException;
 import java.util.Properties;
 
-import helpers.ObjectRepository;
-import modules.Click;
-import modules.ContactusModule;
-//import modules.Driver;
-import modules.SignInModule;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +11,10 @@ import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import helpers.ObjectRepository;
+import modules.Click;
+import modules.ContactusModule;
+import modules.SignInModule;
 public class KeywordDrivenFramework {
     public WebDriver driver;
     public Properties OR;
